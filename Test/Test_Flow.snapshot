@@ -18,6 +18,7 @@
         "labels" : [ ],
         "name" : "Test",
         "outputPorts" : [ ],
+        "parameterContextName" : "Test Parameter Context",
         "position" : {
           "x" : 566.0,
           "y" : 296.0
@@ -44,7 +45,7 @@
             "y" : 236.0
           },
           "properties" : {
-            "Value to track" : "test"
+            "Value to track" : "test2"
           },
           "propertyDescriptors" : {
             "Value to track" : {
@@ -78,7 +79,21 @@
         "variables" : { }
       },
       "flowEncodingVersion" : "1.0",
-      "parameterContexts" : { }
+      "parameterContexts" : {
+        "Test Parameter Context" : {
+          "name" : "Test Parameter Context",
+          "parameters" : [ {
+            "description" : "",
+            "name" : "Param2",
+            "sensitive" : true
+          }, {
+            "description" : "",
+            "name" : "Param1",
+            "sensitive" : false,
+            "value" : "Value1"
+          } ]
+        }
+      }
     }
   }
 }
