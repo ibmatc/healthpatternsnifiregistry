@@ -43,7 +43,9 @@
             "x" : 479.0,
             "y" : 236.0
           },
-          "properties" : { },
+          "properties" : {
+            "Value to track" : "test"
+          },
           "propertyDescriptors" : {
             "Value to track" : {
               "displayName" : "Value to track",
