@@ -1,6 +1,6 @@
 {
   "header" : {
-    "dataModelVersion" : "4"
+    "dataModelVersion" : "3"
   },
   "content" : {
     "flowSnapshot" : {
@@ -8,20 +8,60 @@
       "flowContents" : {
         "comments" : "",
         "componentType" : "PROCESS_GROUP",
-        "connections" : [ ],
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "groupId" : "ee2788da-4596-3e0f-965a-9ab980a7dca7",
+            "id" : "d79e01d5-ebe3-309a-b49c-e2afe9717f0c",
+            "name" : "Output",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ee2788da-4596-3e0f-965a-9ab980a7dca7",
+          "identifier" : "2b5a1502-aab0-3a68-b5fc-391178f9cd1f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "set state fail", "failure", "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ee2788da-4596-3e0f-965a-9ab980a7dca7",
+            "id" : "c4a361e2-f57d-39ab-8593-f4beac0c6f71",
+            "name" : "AttributeRollingWindow",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
         "controllerServices" : [ ],
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "43a6e57d-c171-3ab6-9356-024737d7dc16",
+        "identifier" : "ee2788da-4596-3e0f-965a-9ab980a7dca7",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "Test",
-        "outputPorts" : [ ],
-        "parameterContextName" : "Test Parameter Context",
+        "outputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "ee2788da-4596-3e0f-965a-9ab980a7dca7",
+          "identifier" : "d79e01d5-ebe3-309a-b49c-e2afe9717f0c",
+          "name" : "Output",
+          "position" : {
+            "x" : 1605.0,
+            "y" : 617.0
+          },
+          "type" : "OUTPUT_PORT"
+        } ],
         "position" : {
-          "x" : 566.0,
-          "y" : 296.0
+          "x" : 530.0,
+          "y" : 195.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -36,16 +76,16 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "43a6e57d-c171-3ab6-9356-024737d7dc16",
+          "groupIdentifier" : "ee2788da-4596-3e0f-965a-9ab980a7dca7",
           "identifier" : "c4a361e2-f57d-39ab-8593-f4beac0c6f71",
           "name" : "AttributeRollingWindow",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 479.0,
-            "y" : 236.0
+            "x" : 1040.0,
+            "y" : 504.0
           },
           "properties" : {
-            "Value to track" : "test2"
+            "Value to track" : "test"
           },
           "propertyDescriptors" : {
             "Value to track" : {
@@ -79,21 +119,7 @@
         "variables" : { }
       },
       "flowEncodingVersion" : "1.0",
-      "parameterContexts" : {
-        "Test Parameter Context" : {
-          "name" : "Test Parameter Context",
-          "parameters" : [ {
-            "description" : "",
-            "name" : "Param2",
-            "sensitive" : true
-          }, {
-            "description" : "",
-            "name" : "Param1",
-            "sensitive" : false,
-            "value" : "Value1"
-          } ]
-        }
-      }
+      "parameterContexts" : { }
     }
   }
 }
