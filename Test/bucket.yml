@@ -1,6 +1,6 @@
 flows:
-  fea88ec7-5271-4860-8adf-cd3f4f4c1879: {ver: 6, file: Test_Flow.snapshot, comments: V1.1,
-    author: anonymous, created: 1605206239647, flowName: Test Flow, flowDesc: Test
+  fea88ec7-5271-4860-8adf-cd3f4f4c1879: {ver: 7, file: Test_Flow.snapshot, comments: '1.2',
+    author: anonymous, created: 1605209098786, flowName: Test Flow, flowDesc: Test
       Flow Description}
 layoutVer: 1
 bucketId: 1d129eb1-9c56-4677-a02d-080307d0c678

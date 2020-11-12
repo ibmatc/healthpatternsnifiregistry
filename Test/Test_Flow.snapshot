@@ -14,13 +14,13 @@
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
-            "groupId" : "e309e6a8-56ce-30e3-bf28-a6f7df7c11fb",
+            "groupId" : "68c45891-ee5d-3741-8cb1-1270b58edbc0",
             "id" : "d79e01d5-ebe3-309a-b49c-e2afe9717f0c",
             "name" : "Output",
             "type" : "OUTPUT_PORT"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "e309e6a8-56ce-30e3-bf28-a6f7df7c11fb",
+          "groupIdentifier" : "68c45891-ee5d-3741-8cb1-1270b58edbc0",
           "identifier" : "2b5a1502-aab0-3a68-b5fc-391178f9cd1f",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -31,7 +31,7 @@
           "selectedRelationships" : [ "set state fail", "success", "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "e309e6a8-56ce-30e3-bf28-a6f7df7c11fb",
+            "groupId" : "68c45891-ee5d-3741-8cb1-1270b58edbc0",
             "id" : "c4a361e2-f57d-39ab-8593-f4beac0c6f71",
             "name" : "AttributeRollingWindow",
             "type" : "PROCESSOR"
@@ -42,7 +42,7 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "e309e6a8-56ce-30e3-bf28-a6f7df7c11fb",
+        "identifier" : "68c45891-ee5d-3741-8cb1-1270b58edbc0",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "Test",
@@ -50,7 +50,7 @@
           "allowRemoteAccess" : false,
           "componentType" : "OUTPUT_PORT",
           "concurrentlySchedulableTaskCount" : 1,
-          "groupIdentifier" : "e309e6a8-56ce-30e3-bf28-a6f7df7c11fb",
+          "groupIdentifier" : "68c45891-ee5d-3741-8cb1-1270b58edbc0",
           "identifier" : "d79e01d5-ebe3-309a-b49c-e2afe9717f0c",
           "name" : "Output",
           "position" : {
@@ -60,8 +60,8 @@
           "type" : "OUTPUT_PORT"
         } ],
         "position" : {
-          "x" : 690.0,
-          "y" : 181.0
+          "x" : 781.0,
+          "y" : 177.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -76,13 +76,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "e309e6a8-56ce-30e3-bf28-a6f7df7c11fb",
+          "groupIdentifier" : "68c45891-ee5d-3741-8cb1-1270b58edbc0",
           "identifier" : "c4a361e2-f57d-39ab-8593-f4beac0c6f71",
           "name" : "AttributeRollingWindow",
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 1400.0,
-            "y" : 480.0
+            "y" : 408.0
           },
           "properties" : {
             "Value to track" : "test"
