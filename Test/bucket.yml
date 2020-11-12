@@ -1,4 +1,6 @@
 flows:
+  88329793-45d2-4bea-b0eb-20b5218ab791: {ver: 1, file: New_Group.snapshot, comments: '',
+    author: anonymous, created: 1605209199049, flowName: New Group, flowDesc: ''}
   fea88ec7-5271-4860-8adf-cd3f4f4c1879: {ver: 7, file: Test_Flow.snapshot, comments: '1.2',
     author: anonymous, created: 1605209098786, flowName: Test Flow, flowDesc: Test
       Flow Description}
